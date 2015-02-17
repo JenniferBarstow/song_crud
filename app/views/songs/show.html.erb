@@ -1,0 +1,9 @@
+<h1>Song</h1>
+<hr>
+<%= @song.title %>
+<br>
+<%= @song.artist %>
+<hr>
+<br>
+<%= link_to "Edit song"  %>
+<%= link_to "Delete song", song_path(@song), method: "delete"  %>
